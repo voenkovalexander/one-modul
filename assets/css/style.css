@@ -293,4 +293,16 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+
+}
+
+.review__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.review__card>img{
+    height: 50%;   
 }

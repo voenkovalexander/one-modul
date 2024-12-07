@@ -303,6 +303,64 @@ footer{
     align-items: flex-start;
 }
 
+.date{
+    align-self: flex-end;
+}
+
 .review__card>img{
     height: 50%;   
+}
+
+.sub__sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    &>p{
+        font-size: 2.5rem;
+    }
+
+    & .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            &>input{
+                max-width: 400px;
+                outline: none;
+                border: none;
+                width: 100%;
+                text-align: center;
+                padding: 15px;
+                border-radius: 12px;
+                background-color: #fff;
+                color: #000;
+                font-size: 18px;
+            }
+
+            & label{
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+
+                & input{
+                    width: 50px;
+                }
+                
+
+                & span{
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 }

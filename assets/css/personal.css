@@ -1,0 +1,43 @@
+.personal__info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    &>h1{
+        font-size: 3rem;
+        font-weight: bold;
+        align-self: flex-start;
+    }
+
+    &>.info__block{
+        background-color: white;
+        border-radius: 1rem;
+        width: 70%;
+
+        &>div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 1rem;
+
+            &>div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 0.5rem;
+
+                &>img{
+                    width: 30px;
+                    cursor: pointer;
+                }
+            
+            }
+        }
+    }
+}
